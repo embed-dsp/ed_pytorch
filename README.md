@@ -1,7 +1,29 @@
 
-# PyTorch
+# Install PyTorch and Tools
 
-TODO: Elaborate ...
+This repository contains a bash script for initializing a **virtual Python environment**
+with installation of **PyTorch**, **TensorBoard** and extra Python Tools on Linux.
+
+
+## Overview
+
+The `bin` directory contains the following bash scripts:
+
+```text
+bin/
+└── install_torch_cuda.sh   # Install PyTorch and Tools
+```
+
+
+## Install PyTorch and Tools
+
+Enter the directory where you want to install PyTorch and tools.
+Then type the following command:
+
+```sh
+# Command
+./<path-to-this-repository>/bin/install_torch_cuda.sh
+```
 
 
 ## Links
